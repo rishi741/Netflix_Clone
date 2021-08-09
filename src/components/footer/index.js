@@ -1,5 +1,4 @@
 import React from 'react';
-import Accordion from '../accordion';
 
 import { Container , Row , Column , Link, Title, Text, Break  } from './styles/footer'
 
@@ -28,3 +27,4 @@ Footer.Text = function FooterText( {children, ...restProps}) {
 Footer.Break = function FooterBreak( {children, ...restProps}) {
     return <Break {...restProps}>{children}</Break>
 }
+
