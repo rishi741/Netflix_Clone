@@ -10,6 +10,7 @@
     "@types/react": "^17.0.18",
     "@types/react-router-dom": "^5.1.8",
     "@types/styled-components": "^5.1.12",
+    "dotenv": "^10.0.0",
     "firebase": "^8.9.1",
     "fuse.js": "^6.4.6",
     "normalize.css": "^8.0.1",
