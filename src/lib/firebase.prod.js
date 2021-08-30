@@ -6,7 +6,7 @@ import 'firebase/auth';
 require('dotenv').config();
 //we need a config here
 const config = {
-    apiKey: AIzaSyADVumFAXnhVRC2P2Afu26G3ZGw2rUEmUk ,
+    apiKey: process.env.REACT_APP_SECRET_KEY ,
     authDomain: "netflix-clone-99450.firebaseapp.com",
     projectId: "netflix-clone-99450",
     storageBucket: "netflix-clone-99450.appspot.com",
